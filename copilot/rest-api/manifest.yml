@@ -31,8 +31,8 @@ count:
     in: 60s
     out: 30s
   cpu_percentage: 50
-  # requests: 30
-  # response_time: 2s
+  requests: 30
+  response_time: 2s
 exec: true     # Enable running commands in your container.
 
 # Optional fields for more advanced use-cases.
